@@ -1,0 +1,59 @@
+.col-1{
+    float:left;
+    width:8.33%;
+}
+.col-2{
+    float:left;
+    width:16.66%;
+}
+.col-3{
+    float:left;
+    width:25%;
+}
+.col-4{
+    float:left;
+    width:33.33%;
+}
+.col-5{
+    float: left;
+    width:  41.66%;
+}
+.col-6{
+    float: left;
+    width:  50%;
+}
+.row:after{
+ content: "";
+ display: table;
+ clear:both;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+.label-text{
+    padding:3px
+}
+
+.body-background {
+    background: #C5E1A5;
+}
+.container{
+    margin-left: 20%;
+    /* border:1px solid gray; */
+    margin-top: 2%;
+    border-radius: 20px;
+    padding:2% 0 0 10%;
+    width:60%;
+    background: gainsboro;
+}
+
+.form-control {
+    border-radius: 9px;
+    border: none;
+    height: 30px;
+    width: 140px;
+    padding-left: 20px;
+}
+.form-control:focus{
+    outline-color:rgb(188, 221, 242);
+    border-width: .5px;
+}
