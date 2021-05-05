@@ -57,3 +57,18 @@
     outline-color:rgb(188, 221, 242);
     border-width: .5px;
 }
+
+
+/*Tag based selector*/
+label{
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#age{
+    background: yellow;
+}
+.age-control {
+    background: red;
+}
+input{
+    background: blue;
+}

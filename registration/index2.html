@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <title>This is an awesome registration form</title>
-    <meta name="content" description="this form enables to learn html and css easily" />
+    <meta content="This is a basic one" name="keywords" />
+    <meta http-equiv="refresh" content="5;url=https://www.google.com" />
+    
     <link rel="stylesheet" href="colum-layout.css" />
 </head>
 
@@ -49,7 +52,7 @@
                     <label for="age">Age </label>
                 </div>
                 <div class="col-1">
-                    <input type="number" id="age" name="age" />
+                    <input type="number" id="age" name="age" class="age-control" style="background: pink"/>
                 </div>
             </div>
             <div class="row">
@@ -62,15 +65,15 @@
                     <input type="radio" id="genderFemale" name="gender" value="F" />
                     <label for="genderFemale">Female</label>
                     <input type="radio" id="genderOthers" name="gender" value="NA" />
-                    <label id="genderOthers">Donot disclose</label>
+                    <label for="genderOthers">Donot disclose</label>
                 </div>
             </div>
             <div class="row">
                 <div class="col-1">
-                    <label for="gender">Country </label>
+                    <label for="country">Country </label>
                 </div>
                 <div class="col-2">
-                    <select>
+                    <select id="country">
                         <option value="">Select Country</option>
                         <option value="IN">India</option>
                         <option value="USA">United States</option>

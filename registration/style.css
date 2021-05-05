@@ -43,3 +43,21 @@
   display: table;
   clear: both;
 }
+
+.input-control {
+    border: 1px solid springgreen;/* best practice*/
+    /* top, right bottom left*/
+    margin: 10px 0px 0px 20px ;
+    padding:10px 0px 0px 0px;
+    
+    /* border: 1px;
+    border-style: solid;
+    border-color: springgreen; */
+}
+/*id based Selector*/
+#age{
+
+}
+input{
+    
+}

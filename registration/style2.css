@@ -1,0 +1,76 @@
+
+.container-yellow{
+    background:gainsboro;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*typography*/
+
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 18px;
+}
+h3 {
+    font-size: 14px;
+}
+
+/* navbar styles*/
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:rgb(5, 73, 145);
+}
+.navbar ul .li-left {
+    float: left;
+}
+li a {
+   display: block;/*converts the anchor tag to block element*/
+   color:#fff;
+   text-align: center;
+   padding:12px 12px 12px 12px;
+   text-decoration: none;
+   font-size: 18px;
+}
+.navbar ul .li-right{
+    float: right; 
+}
+a:visited{
+    color:gold;
+}
+a:hover{
+    color:red;
+}
+li a:active{
+    background: rosybrown;
+}
+ul li ul.dropdown{
+  display: none;
+  z-index: 9999; 
+  position:absolute; 
+  text-align: left;
+  
+  
+}
+ul  li:hover ul.dropdown {
+    display: block;
+}
+/* if any class starts with check*/ 
+[class|="check"]{
+    color:red
+}
+/* any class ends with three $indidacates the end*/
+[class$="three"]{
+    color:yellow
+}
+[class *="ou"]{
+    color:blue
+}
+[type="text"]{
+    height:20px;
+    width:150px;
+    margin-bottom:10px;
+    
+}
