@@ -21,7 +21,7 @@ h3 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background:rgb(5, 73, 145);
+    /* //    */
 }
 .navbar ul .li-left {
     float: left;
@@ -72,5 +72,42 @@ ul  li:hover ul.dropdown {
     height:20px;
     width:150px;
     margin-bottom:10px;
-    
+}
+
+/*Gradients*/
+/*Linear Gradient*/
+.gradient-linear{
+    background-image: linear-gradient(270deg,#0910e8aa,#5252e1aa);
+    height:100%;
+}
+.gradient-diagonal{
+    background-image: linear-gradient(to bottom right,
+     red, orange);
+}
+.gradient-tranparency{
+    background-image: linear-gradient(to right,rgba(255,0,0,0),#0910e8aa);
+}
+.backgroundimg{
+    background: url(1.jpeg) no-repeat;
+    height: 100%;
+    width:100%;
+  
+}
+.smiley {
+    background-image: url(https://images.all-free-download.com/images/graphicthumb/sparkling_colorful_background_03_hd_picture_169896.jpg);
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+}
+.blur{
+   
+    background: url(./1.jpeg) no-repeat;
+    border: 2px solid grey;
+    height:50%;
+    width: 50%;
+}
+.box{
+    margin:30px;
+    font-weight: bold;
+    color:#000000
 }
